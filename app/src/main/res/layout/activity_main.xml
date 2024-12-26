@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bToast"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#50A89F"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/bDialog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#50A89F"
+        android:text="Dialog" />
+
+    <Button
+        android:id="@+id/bSinus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#50A89F"
+        android:text="Sinus" />
+
+    <Button
+        android:id="@+id/bActionBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#50A89F"
+        android:text="ActionBar" />
+
+    <Button
+        android:id="@+id/bToolbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#50A89F"
+        android:text="Toolbar" />
+
+</LinearLayout>
